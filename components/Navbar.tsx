@@ -39,11 +39,11 @@ export default function Navbar () {
             className="logo lg:w-[196px]"
             src={"/images/logo-header.svg"}
             alt="Symptomify Logo"
-            width={90}
-            height={40}/>
+            width={130}
+            height={27}/>
         </div>
         <div className="cursor-pointer lg:hidden" onClick={handleToggleNav}>
-          <FaBars/>
+          <FaBars className='text-color-one'/>
         </div>
       </div>
       {isNavOpen && (
