@@ -2,9 +2,14 @@
 import {useState, useEffect} from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import { montsy } from "../app/page";
+import { Montserrat} from "next/font/google";
 import { FaTimes, FaBars } from 'react-icons/fa';
 
+const montsy = Montserrat({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export default function Navbar () {
     const [isNavOpen, setIsNavOpen] = useState(false);

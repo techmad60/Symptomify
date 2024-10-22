@@ -2,14 +2,15 @@ import { Poppins, Montserrat} from "next/font/google";
 import Header from "../components/Header"
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+// import { montsy, poppins } from "@/fonts/fonts";
 
-export const poppins = Poppins({
+ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
   display: 'swap',
 });
 
-export const montsy = Montserrat({
+ const montsy = Montserrat({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
   display: 'swap',
@@ -84,7 +85,7 @@ export default function Home() {
               width={180}
               height={185.28}
             />
-            <div className="flex flex-col justify-center items-center text-center my-32">
+            <div className="flex flex-col justify-center items-center text-center my-28">
               <h3 className={`${poppins.className} font-medium text-color-three lg:text-2xl`}>AI-Powered Symptom Insights</h3>
               <p className="font-light text-sm text-color-one w-[16.875625rem] my-2 lg:text-xl lg:w-[23.1875rem]">Describe your symptoms in everyday language, and let our AI provide you with potential diagnoses and next steps.</p>
               <button className="flex items-center text-color-two gap-2 mt-8 lg:text-lg">Let&apos;s go <FaArrowRight className=""/></button>
@@ -100,7 +101,7 @@ export default function Home() {
               width={180}
               height={185.28}
             />
-            <div className="flex flex-col justify-center items-center text-center my-32">
+            <div className="flex flex-col justify-center items-center text-center my-28">
               <h3 className={`${poppins.className} font-medium text-color-three lg:text-2xl`}>Interactive Symptom Questionnaire</h3>
               <p className="font-light text-sm text-color-one w-[16.875625rem] my-2 lg:text-xl lg:w-[23.1875rem]">Our smart AI asks the right follow-up questions to help pinpoint possible conditions.</p>
               <button className="flex items-center text-color-two gap-2 mt-8 lg:text-lg">Let&apos;s go <FaArrowRight className=""/></button>
@@ -116,7 +117,7 @@ export default function Home() {
               width={180}
               height={185.28}
             />
-            <div className="flex flex-col justify-center items-center text-center my-32">
+            <div className="flex flex-col justify-center items-center text-center my-28">
               <h3 className={`${poppins.className} font-medium text-color-three lg:text-2xl`}>Private and Secure</h3>
               <p className="font-light text-sm text-color-one w-[16.875625rem] my-2 lg:text-xl lg:w-[23.1875rem]">Your health information is protected with encrypted data transmission and industry-standard security.</p>
               <button className="flex items-center text-color-two gap-2 mt-8 lg:text-lg">Let&apos;s go <FaArrowRight className=""/></button>
