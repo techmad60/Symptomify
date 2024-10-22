@@ -40,7 +40,7 @@ export default function Footer (){
                 </section>
                 {/* Logo Footer */}
                 <Image 
-                  src={"/images/logo-footer.svg"}
+                  src={"/images/Logo-footer.svg"}
                   width={165}
                   height={25}
                   alt="Logo"
