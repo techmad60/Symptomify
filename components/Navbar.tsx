@@ -42,7 +42,7 @@ export default function Navbar () {
         <div className="flex items-center">
             <Image 
             className="logo"
-            src={"/images/logo-header.svg"}
+            src={"/images/logo-header (1).svg"}
             alt="Symptomify Logo"
             width={130}
             height={27}/>
