@@ -54,7 +54,7 @@ export default function Main () {
           <p className="leading-[1.875rem] text-sm text-color-one px-8 mt-4 sm:px-16 md:px-24 font-medium lg:px-0 lg:w-[36.6875rem] lg:text-xl">Get instant insights on potential health conditions based on your symptoms—powered by
           <span className="pl-1 relative bottom-[0.24rem]">
             <Image 
-            src={"/images/Gemini-logo 1.svg"}
+            src={"/images/gemini-logo.svg"}
             alt="Gemini-logo"
             className="inline"
             width={50}
