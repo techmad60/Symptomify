@@ -41,7 +41,7 @@ export default function Navbar () {
       <div className="flex justify-between items-center">
         <div className="flex items-center">
             <Image 
-            className="logo"
+            className="logo lg:w-[180px]"
             src={"/images/logo-header (3).svg"}
             alt="Symptomify Logo"
             width={130}
@@ -62,20 +62,20 @@ export default function Navbar () {
         <FaTimes size={24} />
         </button>
         <div className="flex flex-col text-center text-color-one my-12 text-xl leading-[3.75rem] lg:flex-row lg:text-sm lg:my-8">
-            <div className='flex flex-col lg:flex-row justify-between items-center lg:relative right-[14rem] lg:space-x-12 xl:right-[20rem]'>
+            <div className='flex flex-col lg:flex-row justify-between items-center lg:relative right-[10rem] lg:space-x-12 xl:right-[14rem] lg:text-xl'>
               <a href="/" className={`font-light transition duration-150 hover:ease-in`}>
                 Home
               </a>
-              <a href="/features" className={` transition duration-150 hover:ease-in`}>
+              <a href="/features" className={`font-light transition duration-150 hover:ease-in`}>
                 Features
               </a>
-              <a href="/contact-us" className={`transition duration-150 hover:ease-in`}>
+              <a href="/contact-us" className={` font-light transition duration-150 hover:ease-in`}>
                 Contact us
               </a>
             </div>
           
             <div className="flex flex-col space-y-6 mt-12 lg:flex lg:flex-row lg:space-x-4 lg:space-y-0 lg:items-center lg:mt-0 bg-color-three rounded-md">
-              <Link href="/login" className="bg-btn-two-color lg:px-4 lg:py-2 rounded-md transition duration-150 hover:ease-in text-white">
+              <Link href="/login" className="bg-btn-two-color lg:px-4 lg:py-2 rounded-md transition duration-150 hover:ease-in text-white lg:text-lg">
               Signin
               </Link>
               
