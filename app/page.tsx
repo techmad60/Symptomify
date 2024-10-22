@@ -212,6 +212,34 @@ export default function Home() {
             </div>
           </div>
         </section>
+         
+         {/* Try Symptomify Section */}
+        <section className="flex justify-center flex-col items-center my-12 md:flex-row">
+          <div className="flex flex-col justify-center items-center">
+            <h2 className={`${poppins.className} text-color-two font-medium text-xl 
+            lg:text-[2rem]`}>Try Symptomify Today!</h2>
+            <p className="text-color-one text-center font-medium px-8 md:px-0 lg:text-2xl py-4 w-[24.125rem]">Symptomify - Tell me, what&apos;s the matter?</p>
+
+            {/* Responsive Try Symptomify Image */}
+            <Image 
+              src={"/images/Try-Symptomify.svg"}
+              alt="Illustration"
+              className="lg:w-[307px] h-[316] pt-8 md:hidden"
+              width={180}
+              height={185.28}
+            />
+            <button className="flex items-center text-white bg-color-two p-4 rounded-md gap-2 mt-12 sm:mt-4 lg:text-lg">Let&apos;s go <FaArrowRight className=""/></button>
+          </div>
+          
+          {/* Responsive Large Screen Try Symptomify Image */}
+          <Image 
+            src={"/images/Try-Symptomify.svg"}
+            alt="Illustration"
+            className="lg:w-[307px] h-[316] pt-8 hidden md:flex"
+            width={280}
+            height={185.28}
+          />
+        </section>
       </main>
     </div>
   );
