@@ -1,7 +1,7 @@
 import { Montserrat} from "next/font/google";
-import Header from "../components/Header";
-import Main from "@/components/Main";
-import Footer from "@/components/Footer";
+import Header from "../components/sections/Header";
+import Main from "@/components/sections/Main";
+import Footer from "@/components/sections/Footer";
 
  const montsy = Montserrat({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],

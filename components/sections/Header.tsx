@@ -1,4 +1,5 @@
-import Navbar from "./Navbar";
+//Header --- Symptomify
+import Navbar from "../ui/Navbar";
 
 export default function Header() {
 

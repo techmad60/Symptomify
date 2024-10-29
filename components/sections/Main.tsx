@@ -2,11 +2,13 @@ import Image from "next/image";
 import { Poppins} from "next/font/google";
 import { FaArrowRight } from "react-icons/fa";
 
+  
 const poppins = Poppins({
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+    weight: ['100', '200', '300', '400', '500', '600', '700'],
     subsets: ['latin'],
     display: 'swap',
   });
+
 export default function Main () {
     return (
         <main>
